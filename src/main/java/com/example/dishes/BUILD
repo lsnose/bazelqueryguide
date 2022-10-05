@@ -1,18 +1,20 @@
 java_library(
     name = "macAndCheese",
+    visibility = ["//visibility:public"],
     srcs = ["macAndCheese.java"],
     deps = [
-        "//ingredients:cheese",
-        "//ingredients:macaroni",
+        "//src/main/java/com/example/ingredients:cheese",
+        "//src/main/java/com/example/ingredients:macaroni",
     ],
 )
 
 java_library(
     name = "pizza",
+    visibility = ["//visibility:public"],
     srcs = ["Pizza.java"],
     deps = [
-        "//ingredients:cheese",
-        "//ingredients:dough",
-        "//ingredients:tomato",
+        "//src/main/java/com/example/ingredients:cheese",
+        "//src/main/java/com/example/ingredients:dough",
+        "//src/main/java/com/example/ingredients:tomato",
     ],
 )

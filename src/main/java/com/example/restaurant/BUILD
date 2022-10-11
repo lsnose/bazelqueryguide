@@ -1,9 +1,8 @@
 java_library(
     name = "chef",
+    visibility = ["//visibility:public"],
     srcs = [
         "Chef.java",
-        "dishes/MacAndCheese.java",
-        "dishes/Pizza.java",
     ],
     deps = [
         "//src/main/java/com/example/dishes:macAndCheese",
@@ -14,9 +13,9 @@ java_library(
 
 java_library(
     name = "cafe",
+    visibility = ["//visibility:public"],
     srcs = [
         "Cafe.java",
-        "Chef.java",
     ],
     deps = [
         ":chef",

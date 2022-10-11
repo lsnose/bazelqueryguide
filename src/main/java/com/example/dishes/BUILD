@@ -1,7 +1,7 @@
 java_library(
     name = "macAndCheese",
     visibility = ["//visibility:public"],
-    srcs = ["macAndCheese.java"],
+    srcs = ["MacAndCheese.java"],
     deps = [
         "//src/main/java/com/example/ingredients:cheese",
         "//src/main/java/com/example/ingredients:macaroni",

@@ -1,12 +1,12 @@
 
 java_binary (
-    name = "review1",
+    name = "review",
     visibility = ["//visibility:public"],
     srcs = [
-        "Review1.java",
+        "Review.java",
     ],
-    main_class = "com.example.reviews.Review1",
-    tags = ["MacAndCheese"],
+    main_class = "com.example.reviews.Review",
+    tags = ["pizza"],
     deps = [
         "//src/main/java/com/example/customers:amir",
     ],
